@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <script src = "CBI.js"></script>
+    <style>
+      #HEADING {
+        font-size:50px;
+        text-decoration:underline;
+      }
+      body {
+        background-image:url("https://upload.wikimedia.org/wikipedia/commons/4/40/Fraxinus_excelsior_wood_tangent_section_1_beentree.jpg");
+      }
+      #centerPho {
+        height:300px;
+        width:400px;
+        background-color:red;
+        margin:25px;
+      }
+      #answerOne {
+        width:200px;
+        height:100px;
+        background-color:blue;
+        float:left;
+        margin:2px;
+      }
+      #answerTwo {
+        width:200px;
+        height:100px;
+        background-color:green;
+        margin:auto;
+      }
+      #answerThree {
+        width:200px;
+        height:100px;
+        background-color:red;
+        float:right;
+      }
+    </style>
+  </head>
+  <body onload = "RanPho()">
+    <center> <h1 id = "HEADING">MATCH IT</h1> </center>
+    
+   <center> <div id = "centerPho"></div> </center>
+   
+   <div id = "answerOne" onClick = "CheckIfOne()">
+   <center><h1 id = "answerX">hello</h1></center>
+   </div>
+   
+   <div id = "answerThree" onClick = "CheckIfTwo()">
+   <center><h1 id = "answerY"></h1></center>
+   </div>
+   
+   <div id = "answerTwo" onClick = "CheckIfThree()">
+   <center><h1 id = "answerZ"></h1></center>
+   </div>
+   
+  </body>
+</html>
